@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="img/" type="">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" href="img/casa-inteligente.ico">
+    <title></title>
+</head>
+<body>
+    
+      <header>
+        <img class="header_logo" src="img/logo2.png" alt="logo" >
+        
+   </header>
+    <nav>
+      <ul>
+          <!--barra de navegacion -->
+          <li><a href="index.html">Inicio</a></li>
+              <li><a href="Productos.html">Productos</a></li>
+              <li><a href="QuienesSomos.html">Quienes somos?</a></li>
+              <li><a href="contactanos.html">Contactanos</a></li>
+      </ul>
+    </nav>     
+ <div class="bodyst">
+  <div class="margen">
+   <div id="formulario">
+  <form class="needs-validation" dato invalido>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip01"> <p> Nombre</p></label>
+        <input type="text" class="form-control" id="validationTooltip01" value="Nombre " required>
+        <div class="valid-tooltip">
+          completo
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip02"><p>Apelldio</p></label>
+        <input type="text" class="form-control" id="validationTooltip02" value="Apellido" required>
+        <div class="valid-tooltip">
+         completo
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip03"><p>Ciudad</p></label>
+        <input type="text" class="form-control" id="validationTooltip03" value="ej:Santa de la Sierra" required>
+        <div class="invalid-tooltip">
+          Elija una ciudad
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationTooltip04"><p>Departamento</p></label>
+        <select class="custom-select" id="validationTooltip04" required>
+          <option selected disabled value="">Elije</option>
+          <option>Santa Cruz</option>
+          <option>Cochabamba</option>
+          <option>La paz </option>
+          <option>Tarija</option>
+          <option>Beni</option>
+          <option>Pando</option>
+          <option>Oruro</option>
+          <option>Chuquisaca</option>
+          <option>Potosi</option>
+        </select>
+        <div class="invalid-tooltip">
+          Please select a valid state.
+        </div>
+      </div>  
+    </form>
+  </div>
+</div>
+      <!--api de gogle-->
+    
+      <div id="map">
+<script src="main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+</div>   
+</div>
+</body>
+<footer>
+  <div class="footer"> 
+ 
+    <img id="iconosf" src="img/ubicacion.png" alt="ubicacion"><p>av/bush 3er anillo interno</p>
+    <a href="https://twitter.com/?lang=es" target="_blank" ><img id="iconosf" src="img/twiter.png " alt="twitter"><p>compra gamer</p></a> 
+    <img id="iconosf" src="img/telefono.png" alt="telefon"><p>78121065</p>
+    <a href="https://www.instagram.com" target="_blank" ><img id="iconosf" src="img/instagram.png" alt="instagram"><p>@CompraGamer</p></a> 
+ 
+  </div>
+   
+</footer>
+</html>

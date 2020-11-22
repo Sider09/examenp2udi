@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;800&family=PT+Sans:ital@1&display=swap');  
+*{
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;   
+}
+nav{
+    background: #ff0000;
+    height: 80px; 
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight:bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 8px  ;
+}
+
+a.btnHome, a:hover{
+    background: #3b2a14;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 768px){
+    label.logo{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px
+    }
+    a:hover, a.btnHome{
+        color: #0082e6;
+        background: none;
+
+    }
+    #check:checked ~ ul{
+        left: 0;
+    } 
+}
+
+header{
+    background: rgb(7, 7, 7);
+    height: 220px;
+}
+.header_logo {
+    width: 350px;
+    height: 200px;
+    float: left;
+    margin:15px 15px;
+    padding-top: 50px;
+}
+.bodyst{
+    background: #333333;
+    
+}
+.bodyst h1,p{
+    color: rgb(252, 252, 252);
+}
+.bodyst p{
+    font-size: 40px;
+}
+.carousel-inner img {
+    width: 12%;
+    max-height: 500px;
+    
+}
+
+ #map{
+     height: 600px;
+     width: 600px;
+     margin-left: 600px;
+     
+ }
+ .needs-validation{
+     padding-right: 20%;
+ }
+#carrusel{
+    padding-top: 100px;
+    margin: 0 300px;
+}
+.footer a i {
+height: 500px;
+width: 500px;
+}
+#iconosf{
+    height: 30px;
+    width: 30px;
+}
+.footer{
+    background-color: rgb(94, 94, 94);
+}
+#imgquienes{
+    height: 350px;
+    width: 400px;
+    margin: 0 600px;
+}
+h2,h3{
+    font-size: 30px;
+}
+.margen{
+    margin: 30px;
+}
